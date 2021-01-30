@@ -1,0 +1,728 @@
+/* TO AVOID WHITE SPACE ON THE RIGHT ON MOBILE */
+           @media
+only screen and (-webkit-min-device-pixel-ratio: 1.5),
+only screen and (-o-min-device-pixel-ratio: 3/2),
+only screen and (min--moz-device-pixel-ratio: 1.5),
+only screen and (min-device-pixel-ratio: 1.5){
+
+  html,
+  body{
+    
+    overflow-x:hidden;
+    left: 4px;
+    right: 4px;
+  }
+
+}
+/*END*/
+/*  HEADER IMAGE */
+        .mainImageTop{
+            background: url('bg.jpg') center center no-repeat;
+            background-size: cover;
+            padding-top: 50%;
+            height: 100vh;
+            -webkit-background-size: cover;
+            -moz-background-size: cover;
+            background-size: cover;
+            width: 100%;
+            height: 100vh;
+            position: relative;
+            text-align: center;
+            color: white; 
+}
+      /*DESIRE FOUNDATION LOGO*/
+
+        .logo{
+            height: 6vh;
+            border-radius: 50%;
+        }
+        /* DESIRE FOUNDATION CAPTION*/
+        .caption{
+            position: absolute;
+            top: 15%;
+            left: 50%;
+            right: 50%;
+            width: 100%;
+            transform: translate(-50%, -50%);
+            font-size: 190%;
+            background-color: rgba(5, 4, 2, 0.459);
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            padding: 5px;
+        }
+        /*COMPATIBLE*/
+    @media screen and (max-width: 600px) {
+        .caption{
+            top: 25% ;
+        }
+        
+    }
+    /* DONATE BUTTON ON HEADER IMAGE */
+    .donate{
+        position: absolute;
+            top: 30%;
+            left: 50%;
+            right: 50%;
+            width: 200px;
+            height: 80px;
+            background-color: green;
+            font-size: 150%;
+            transform: translate(-50%, -50%);
+            border-radius: 20px;
+            font-weight: bolder;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            border: 3px solid darkgreen;
+            color: white;
+            
+    }
+    .donate:hover{
+        background-color: darkred;
+        border: 3px solid rgb(97, 1, 1);
+        width: 210px;
+        height: 90px;
+
+    }
+    /*COMPATIBLITY*/
+    @media screen and (max-width: 600px) {
+        .donate{
+            top: 45% ;
+            width: 150px;
+        height: 50px;
+
+        }
+        .donate:hover{
+            width: 160px;
+        height: 60px;
+            
+        }
+        
+    }
+    /* FIXED DONATE BUTTON*/
+    .donatebutton{
+        position: fixed;
+        top: 90vh;
+        background-color: green;
+        padding: 5px;
+        border-top-right-radius: 20px;
+        font-weight: bolder;
+            font-family: cursive;
+    }
+    @media screen and (min-width: 768px) {
+        .donatebutton{
+            font-size: 25px;
+            padding: 0.9%;
+            width: 200px;
+            border-top-right-radius: 100px;
+            font-weight: bolder;
+            font-family: cursive;
+            
+        }
+    }
+    /* KIIT IMAGE SECTION*/
+    #kiit{
+        height: 94vh;
+        background-color: rgb(14, 3, 66);
+        
+
+    }
+    .kiit{
+        width: 100%;
+        height: 200%;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        background-size: cover;
+        border-radius: 2px;
+        }
+        @media screen and (max-width: 600px) {
+            .kiit{
+                width: 100%;
+                height: 100%;
+            }
+            #kiit{
+                height: 60vh;
+            }
+        }
+
+        /* APPROACHES SECTION */
+        .approach{
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            position: relative;
+            font-size: 310%;
+            font-weight: bolder;
+            left: 50%;
+            right: 50%;
+            width: 100%;
+            transform: translate(-50%, -50%);
+            color: black;
+            text-align: center;
+            background-color: rgba(231, 220, 220, 0.192);
+        }
+        @media screen and (max-width: 600px) {
+            .approach{
+                top: 50px;
+            }
+        }
+        /* LEFT TEXT - APPROACH */
+        .step1{
+            float: left;
+            height: fit-content;
+            padding: 8px;
+            width: 600px;
+            border: 3px solid black;
+            background-color:rgb(55, 4, 59);
+            border-radius: 20px;
+            overflow: hidden;
+            color: white;
+            position: relative;
+            
+        }
+        /* RIGHT TEXT - APPROACH */
+        .step2{
+            float: right;
+            height: fit-content;
+            padding: 8px;
+            width: 600px;
+            border: 3px solid black;
+            background-color:rgb(3, 11, 88);
+            border-radius: 20px;
+            overflow: hidden;
+            color: white;
+            position: relative;
+
+        }
+        .steps{
+            font-size: 30px;
+            color: thistle;
+        }
+        @media screen and (max-width: 600px) {
+            .step1{
+                width: 250px;
+                left: 0;
+            }
+            .step2{
+                width: 250px;
+                right: 0;
+            }
+        }
+        /* APPROACH IMAGE */
+        #kiit1{
+
+            background: url('header.jpg') center center no-repeat;
+            background-size: cover;  
+    }
+
+    /*ADHYAYAN SECTION */
+    #adhyayan{
+        background-color: brown;
+        color: cornsilk;
+        font-size: 20px;
+
+    }
+    @media screen and (max-width: 600px) {
+        #adhyayan{
+            font-size: 15px;
+            padding: 4%;
+        }
+    }
+
+    /* ADHYAYAN IMAGE */
+    .adhyayanimage {
+        width: 45%;
+        float: right;
+        background: rgb(63, 60, 60);
+        padding:2px;
+        clip-path: circle();
+        shape-outside: circle();
+        float: right;
+    }
+    /* MISSION HEADING */
+.missionheading{
+    color: rgb(9, 224, 99);
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 200%;
+    font-weight: bolder;
+    font-style: italic;
+
+}
+/* VISSION HEADING*/
+.vissionheading{
+    color: rgb(9, 224, 99);
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 200%;
+    font-weight: bolder;
+}
+@media screen and (max-width: 600px) {
+    .missionheading{
+        font-size: 150% ;
+    }
+    .vissionheading{
+        font-size: 150%;
+    }
+    
+}
+
+/* MISSION*/
+
+#mission{
+    background-color: rgb(65, 4, 61);
+        color: cornsilk;
+        font-size: 18px;
+        padding: 5%;
+}
+
+/* MISSION IMAGE*/
+
+.missionimage{
+    width: 50%;
+ float: left;
+ padding: 1px;
+    margin-right: 10px;
+    border-radius: 40px;
+    background-color: black;
+}
+p{
+    padding: 10px;
+}
+
+/* VISSION*/
+
+#vission{
+    background-color: rgb(65, 4, 61);
+        color: cornsilk;
+        font-size: 18px;   
+        padding: 5%;
+
+}
+
+/* VISSION IMAGE */
+.vissionimage{
+    width: 50%;
+ float: right;
+ padding: 1px;
+    margin-left: 10px;
+    border-radius: 40px;
+    background-color: black;
+}
+p{
+    padding: 10px;
+}
+
+/* ADHYAYAN HEADING*/
+
+
+.adhyayanheading{
+    color: white;
+            text-align: center;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            font-size: 200%;
+            font-weight: bolder;
+            background-color: rgba(12, 3, 3, 0.123);
+
+}
+
+/* MILESTONES HEADING */
+
+.milestoneheading{
+    color: white;
+            text-align: center;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            font-size: 250%;
+            font-weight: bolder;
+            background-color: rgba(100, 102, 245, 0.123);
+
+}
+
+/* CHECK MARK FOR MILESTONES*/
+.check{
+    background-color: green;
+    height:100px;
+    position: relative;
+    left: 47%;
+    right: 47%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    border-radius: 100px;
+    font-size: 60px;
+    align-items: center;
+    align-content: center;
+    border: 2px solid darkgreen;
+    top: 10px;
+    padding: 5px;
+}
+@media screen and (max-width: 600px) {
+    .check{
+        left: 44%;
+        right: 50%;
+    }
+}
+
+/* 2020 - 2021 CHECKMARK*/
+.check1{
+    background-color: rgb(175, 147, 23);
+    height:100px;
+    position: relative;
+    left: 47%;
+    right: 47%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    border-radius: 100px;
+    font-size: 60px;
+    align-items: center;
+    align-content: center;
+    border: 2px solid rgb(126, 117, 2);
+    top: 10px;
+    padding: 5px;
+}
+
+/* MONTH AND YEAR - MILESTONES*/
+.month{
+    left: 50%;
+            right: 50%;
+            transform: translate(-50%, -50%);
+            text-align: center;
+            align-items: center;
+            align-content: center;
+            position: relative;
+            top: 3%;
+}
+
+/* HEADING - MILESTONES*/
+.heading{
+    left: 50%;
+            right: 50%;
+            transform: translate(-50%, -50%);
+            text-align: center;
+            align-items: center;
+            align-content: center;
+            position: relative;
+            top: 5%;
+            font-size: 160%;
+            font-weight: bolder;
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+/* INFO - MILESTONES*/
+.content{
+    left: 50%;
+            right: 50%;
+            transform: translate(-50%, -50%);
+            text-align: center;
+            position: relative;
+            align-items: center;
+            align-content: center;
+            top: 3%;
+            
+            
+
+}
+
+/* DIVIDING LINES BETWEEN EACH MILESTONE */
+hr {
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+    display: block; 
+    overflow: hidden; 
+    border-style: inset; 
+    border-width: 4px;
+    border-radius: 20px;
+    }
+
+    /* MILESTONE*/
+
+    #milestones{
+        background-color:black;
+        color: blanchedalmond;
+    }
+
+    /* CONTACT INFO*/
+    #contact{
+        background-color: chocolate;
+    }
+    .reachheading{
+        color: black;
+            
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            font-size: 250%;
+            font-weight: bolder;
+            padding-bottom: 2%;
+            padding-top: 2%;
+    }
+    @media screen and (max-width: 600px) {
+        .reachheading{
+            font-size: 190%;
+
+        }
+    }
+    /*ICONS*/
+    .fa {
+        font-size: 150%;
+  padding: 3%;
+  border-radius: 50%;
+  left: 0;
+  right: 0;
+    }
+.fa:hover {
+    opacity: 0.7;
+}
+
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+}
+
+.fa-twitter {
+  background: #55ACEE;
+  color: white;
+}
+
+.fa-linkedin {
+  background: #007bb5;
+  color: white;
+}
+.fa-instagram {
+  background: #125688;
+  color: white;
+}
+
+/* LEFT PROJECT INFO*/
+.mySlides1{
+    float: left;
+    width: 50%;
+    padding: 3%;
+    border-bottom-left-radius: 300px;
+    border-top-right-radius: 300px;
+    background-color:  rgb(180, 31, 31);
+    color: white;
+    font-size: 150%;
+    padding: 4%;
+    font-family: cursive;
+    padding-left: 10%;
+
+}
+.mySlides1:hover{
+    background-color:rgb(124, 7, 7) ;
+}
+
+/* RIGHT PROJECTS INFO*/
+.mySlides2:hover{
+    background-color:rgb(124, 7, 7) ;
+
+}
+.mySlides2{
+    float: right;
+    width: 50%;
+    padding: 3%;
+    border-bottom-left-radius: 300px;
+    border-top-right-radius: 300px;
+    background-color: rgb(180, 31, 31);
+    color: white;
+    font-size: 150%;
+    padding: 4%;
+    font-family: cursive;
+    padding-left: 10%;
+}
+
+/* PROJECTS*/
+#projects
+{
+    background-color: rgb(2, 7, 77);
+}
+
+/*PROJECT HEADING*/
+.projectsheading{
+    color: white;
+            text-align: center;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            font-size: 250%;
+            font-weight: bolder;
+            padding-bottom: 5%;
+
+}
+
+/* READ MORE BUTTON - PROJECTS*/
+.slide1{
+    width:  fit-content;
+    padding: 1%;
+    border-radius: 5%;
+    color: white;
+    background-color: rgb(71, 5, 5);
+    font-size: 60%;
+    font-family: cursive;
+    }
+    .slide1:hover{
+        background-color: darkgreen;
+    }
+    @media screen and (max-width: 600px) {
+        .mySlides1{
+            font-size: 90%;
+            width: 100%;
+    padding: 2%;
+    padding-left: 30%;
+        }
+        .mySlides2{
+            width: 100%;
+            font-size: 90%;
+    padding: 2%;
+    padding-left: 30%;
+        }
+        .slide1{
+            font-size: 50%;
+        }
+
+    }
+
+    
+    /*chat*/
+    .open-button {
+  background-color: rgba(22, 19, 19, 0.651);
+  color: white;
+  padding: 16px 20px;
+  border: none;
+  cursor: pointer;
+  opacity: 0.8;
+  position: fixed;
+  bottom: 23px;
+  right: 28px;
+  width: 200px;
+  font-weight: bold;
+  font-size: 25px;
+}
+
+@media screen and (max-width: 600px) {
+    .open-button{
+        width: 100px;
+  font-weight: bold;
+  font-size: 15px;
+    }
+}
+/* The popup chat - hidden by default */
+.chat-popup {
+  display: none;
+  position: fixed;
+  bottom: 0;
+  right: 15px;
+  border: 3px solid #f1f1f1;
+  z-index: 9;
+  
+}
+
+/* Add styles to the form container */
+.form-container {
+  max-width: 300px;
+  padding: 10px;
+  background-color: white;
+}
+
+/* Full-width textarea */
+.form-container textarea {
+  width: 100%;
+  padding: 15px;
+  margin: 5px 0 22px 0;
+  border: none;
+  background: #f1f1f1;
+  resize: none;
+  min-height: 200px;
+}
+
+/* When the textarea gets focus, do something */
+.form-container textarea:focus {
+  background-color: #ddd;
+  outline: none;
+}
+
+/* Set a style for the submit/send button */
+.form-container .btn {
+  background-color: #4CAF50;
+  color: white;
+  padding: 16px 20px;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  margin-bottom:10px;
+  opacity: 0.8;
+}
+
+/* Add a red background color to the cancel button */
+.form-container .cancel {
+  background-color: red;
+}
+
+/* Add some hover effects to buttons */
+.form-container .btn:hover, .open-button:hover {
+  opacity: 1;
+  }
+
+  /* FOOTER*/
+  footer{
+      background-color: rgb(7, 6, 6);
+  }
+
+  /* FOOTER- CONTACT DETAILS*/
+  .desireheading{
+      color: white;
+      font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+      background-color: rgba(252, 237, 237, 0.171);
+      padding-left: 10px;
+      
+
+  }
+  .linksheading{
+    color: white;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    background-color: rgba(252, 237, 237, 0.178);
+    padding-left: 10px;
+
+
+  }
+  .contactheading{
+    color: white;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    background-color: rgba(243, 202, 206, 0.164);
+    padding-left: 10px;
+    
+  }
+  .desirecontent{
+      color: white;
+      font-family: cursive;
+      
+  }
+  .linkscontent{
+      color: white;
+      font-family: cursive;
+
+  }
+  .contactcontent{
+      color: white;
+      font-family: cursive;
+  }
+  @media screen and (max-width: 600px) {
+      .desireheading{
+          font-size: 20px;
+          padding: 4px;
+      }
+      .desirecontent{
+          font-size: 15px;
+      }
+      .contactheading{
+        font-size: 20px;
+          padding: 4px;
+      }
+      .contactcontent{
+        font-size: 15px;
+      }
+      .linksheading{
+        font-size: 20px;
+          padding: 4px;
+
+      }
+      .linkscontent{
+        font-size: 15px;
+
+      }
+  }
+    
+    
+        
+    
