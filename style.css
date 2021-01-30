@@ -158,7 +158,8 @@ only screen and (min-device-pixel-ratio: 1.5){
         }
         @media screen and (max-width: 600px) {
             .approach{
-                top: 50px;
+                top: 60px;
+                font-size: 200%;
             }
         }
         /* LEFT TEXT - APPROACH */
@@ -242,6 +243,7 @@ only screen and (min-device-pixel-ratio: 1.5){
     font-size: 200%;
     font-weight: bolder;
     font-style: italic;
+    font-style: italic;
 
 }
 /* VISSION HEADING*/
@@ -292,6 +294,7 @@ p{
         color: cornsilk;
         font-size: 18px;   
         padding: 5%;
+        
 
 }
 
@@ -549,7 +552,7 @@ hr {
     color: white;
     background-color: rgb(71, 5, 5);
     font-size: 60%;
-    font-family: cursive;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     }
     .slide1:hover{
         background-color: darkgreen;
@@ -690,12 +693,12 @@ hr {
   }
   .linkscontent{
       color: white;
-      font-family: cursive;
+      font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 
   }
   .contactcontent{
       color: white;
-      font-family: cursive;
+      font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   }
   @media screen and (max-width: 600px) {
       .desireheading{
@@ -722,6 +725,9 @@ hr {
 
       }
   }
+    
+    
+        
     
     
         
